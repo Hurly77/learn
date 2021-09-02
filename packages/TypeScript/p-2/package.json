@@ -1,0 +1,16 @@
+{
+	"name": "p-2",
+	"version": "1.0.0",
+	"description": "Second Project for TypeScript",
+	"main": "app.js",
+	"author": "CJ Levey",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"test": "echo \"Error: no test Specified\" && exit 1",
+		"start": "lite-server"
+	},
+	"devDependencies": {
+		"lite-server": "^2.6.1"
+	}
+}
