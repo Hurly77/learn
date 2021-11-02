@@ -41,7 +41,7 @@ def pull_data():
 def calc_user_decades():
     global age, name
     decades = str(float(age) / float(10))
-    text = "Okay {} looks like you are {} and have lived for {}"
+    text = "Okay {} looks like you are {} and have lived for {} decades"
     print(text.format(name, age, decades))
 
 

@@ -11,14 +11,21 @@ def add_value(trans_amount, las_trans=[0]):
 
 
 def get_user_input():
-    return input("Your transation amount please or else I'll have to .... to....: ")
+    return input("Your transaction amount: ")
 
 
 tx_amount = get_user_input()
 add_value(tx_amount)
 
-tx_amount = get_user_input()
-add_value(tx_amount)
+isTrue = True
 
-tx_amount = get_user_input()
-add_value(tx_amount)
+while isTrue:
+    tx_amount = get_user_input()
+    add_value(tx_amount)
+
+    for block in blockchain:
+        print("Out putting Block")
+        print(block)
+    isTrue = False
+
+print("Done!")
